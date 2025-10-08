@@ -1,0 +1,65 @@
+/* Global Page Container */
+.page-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background: linear-gradient(135deg, #74ABE2, #5563DE);
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color: white;
+  text-align: center;
+}
+
+/* Login Box */
+.login-box, .home-box, .dashboard-box {
+  background: rgba(255, 255, 255, 0.15);
+  backdrop-filter: blur(10px);
+  padding: 2rem;
+  border-radius: 1rem;
+  box-shadow: 0 4px 30px rgba(0,0,0,0.2);
+  width: 300px;
+}
+
+.login-box h2, .home-box h1, .dashboard-box h1 {
+  margin-bottom: 1rem;
+}
+
+input {
+  display: block;
+  width: 100%;
+  padding: 0.5rem;
+  margin: 0.4rem 0;
+  border: none;
+  border-radius: 5px;
+}
+
+button, .btn {
+  display: inline-block;
+  margin-top: 1rem;
+  background-color: #222;
+  color: white;
+  padding: 0.5rem 1rem;
+  border-radius: 5px;
+  text-decoration: none;
+  border: none;
+  cursor: pointer;
+  transition: background 0.3s;
+}
+
+button:hover, .btn:hover {
+  background-color: #444;
+}
+
+.btn.secondary {
+  background-color: #0b7285;
+}
+
+.logout {
+  background-color: #b02a37;
+}
+
+.home-buttons {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+}
